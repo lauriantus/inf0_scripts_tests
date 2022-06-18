@@ -1,0 +1,43 @@
+-------------------------------------------------------
+intVar = 2 
+Number.isFinite(intVar) = true
+Number.isNaN(intVar) = false
+typeof(intVar) = number
+
+-------------------------------------------------------
+floatVar = 10.5 
+Number.isFinite(floatVar) = true
+Number.isNaN(floatVar) = false
+typeof(floatVar) = number
+
+-------------------------------------------------------
+stringVar = 4 
+Number.isFinite(stringVar) = false
+Number.isNaN(stringVar) = false
+typeof(stringVar) = string
+
+-------------------------------------------------------
+nanVar = NaN 
+Number.isFinite(nanVar) = false
+Number.isNaN(nanVar) = true
+typeof(nanVar) = number
+
+-------------------------------------------------------
+infinityVar = Infinity 
+Number.isFinite(infinityVar) = false
+Number.isNaN(infinityVar) = false
+typeof(infinityVar) = number
+
+-------------------------------------------------------
+nullVar = null 
+Number.isFinite(nullVar) = false
+Number.isNaN(nullVar) = false
+typeof(nullVar) = object
+
+-------------------------------------------------------
+undefined = undefined 
+Number.isFinite(undefined) = false
+Number.isNaN(undefined) = false
+typeof(undefined) = undefined
+
+-------------------------------------------------------
